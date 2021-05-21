@@ -1,9 +1,43 @@
 
-<h1>URL: http://localhost:8000/testimonial</h1>
+
+# Testimonials module with laravel 
+
+## Usage
+
+```
+git clone https://github.com/lamyita/testimonial_laravel_test.git
+```
+
+Then put the project in your webserver root directory `laragon\www` for laragon or `xampp\htdocs` for xampp
+
+- Run your server :
+
+   `php artisan serve`.
+   
+- Make Database Connection :
+
+For make database connection in Laravel  framework, we have to open .env file. In this file we have to define Mysql database configuration details, which you can find below.
+
+```
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=egiotestimoniallaravel
+DB_USERNAME=root
+DB_PASSWORD= 
+```
 
 
-<h1>name database: egiotestimoniallaravel</h1>
 
+to migrate the database run this following command 
+ `php artisan migrate`
+ 
+- Run your application :
+
+  URL:  `http://localhost:8000/testimonial`.
+
+
+- How to test :
 
 <h1>FORM </h1>
 
