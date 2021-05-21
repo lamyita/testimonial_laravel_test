@@ -16,7 +16,7 @@ Then put the project in your webserver root directory `laragon\www` for laragon 
    
 - Make Database Connection :
 
-For make database connection in Laravel  framework, we have to open .env file. In this file we have to define Mysql database configuration details, which you can find below.
+To establish the database connection with laravel framework, modify the .env file and put the database credentials such as the port, the username and the password.
 
 ```
 DB_CONNECTION=mysql
@@ -37,28 +37,9 @@ to migrate the database run this following command
   URL:  `http://localhost:8000/testimonial`.
 
 
-- How to test :
+## How to test :
 
 <h1>FORM </h1>
 
 ![](imagesOfProjectResult/formTest.png)
-
-<h1>ERROR filed Required  </h1>
-
-![](imagesOfProjectResult/errorFiledRequired.png)
-
-<h1>ERROR Length Required  </h1>
-
-![](imagesOfProjectResult/titleLenght.png)
-
-<h1>MESSAGE  success   </h1>
-
-
-![](imagesOfProjectResult/suusces.png)
-
-<h1>Result  </h1>
-
-
-![](imagesOfProjectResult/profiles.png)
-
 
