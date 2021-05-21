@@ -37,7 +37,7 @@ to migrate the database run this following command
   URL:  `http://localhost:8000/testimonial`.
 
 
-## How to test :
+## enter the title and the description with an image (optional) and click add. :
 
 <h1>FORM </h1>
 
